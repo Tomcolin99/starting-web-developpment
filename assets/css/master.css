@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightgrey;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  font-size: 110%;
+}
+
+.categorie {
+  text-align: center;
+  width: 50%;
+  background-color: #FFFFFF;
+  margin: 1% 0 1% 0;
+  border-radius: 1%;
+}
+
+/* entete */
+.info {
+  font-weight: lighter;
+}
+
+.info h1 {
+  color: #CA5150;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info button {
+  background-color: #CA5150;
+  width: 30%;
+  height: 60px;
+  margin-bottom: 1%;
+  border-radius: 10px;
+}
+
+.info button a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+#photo {
+  margin-top: 1%;
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+  height: 20%;
+  width: 20%;
+}
+
+/* link */
+.link ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 5%;
+  padding: 0;
+}
+
+.link li {
+  margin: 5%;
+}
+
+.link a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.link a .fab {
+  font-size: 2em;
+  margin: 10%;
+}
+
+/* movies */
+.movies ol li {
+  display: flex;
+  margin: 5%;
+  font-weight: lighter;
+}
+
+.movies ol li img{
+  height: 20%;
+  width: 20%;
+}
+
+.resume {
+  margin-left: 5%;
+}
+
+.movies ol li p {
+  text-align: left;
+}
